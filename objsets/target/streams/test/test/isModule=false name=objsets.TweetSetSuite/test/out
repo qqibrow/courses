@@ -1,0 +1,25 @@
+[0m[[0minfo[0m] [0m[32mTweetSetSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- filter: on empty set[0m[0m
+[0m[[0minfo[0m] [0m[31m- filter: a on set5 *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  4 did not equal 1 (TweetSetSuite.scala:38)[0m[0m
+[0m[[0minfo[0m] [0m[31m- filter: 20 on set5 *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  4 did not equal 2 (TweetSetSuite.scala:44)[0m[0m
+[0m[[0minfo[0m] [0m[31m- union: set4c and set4d *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  0 did not equal 4 (TweetSetSuite.scala:50)[0m[0m
+[0m[[0minfo[0m] [0m[31m- union: with empty set (1) *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  0 did not equal 4 (TweetSetSuite.scala:56)[0m[0m
+[0m[[0minfo[0m] [0m[31m- union: with empty set (2) *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  0 did not equal 4 (TweetSetSuite.scala:62)[0m[0m
+[0m[[0minfo[0m] [0m[31m- descending: set5 *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at objsets.TweetSet.descendingByRetweet(TweetSet.scala:99)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at objsets.TweetSetSuite$$anonfun$7$$anon$7.<init>(TweetSetSuite.scala:68)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at objsets.TweetSetSuite$$anonfun$7.apply$mcV$sp(TweetSetSuite.scala:67)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at objsets.TweetSetSuite$$anonfun$7.apply(TweetSetSuite.scala:67)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at objsets.TweetSetSuite$$anonfun$7.apply(TweetSetSuite.scala:67)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m

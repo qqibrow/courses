@@ -1,0 +1,6 @@
+runMain scalashop.VerticalBoxBlurRunner
+runMain scalashop.ScalaShop
+submit qqibrow@gmail.com BlBAQVpAYkBvHX1R
+sbt test
+test
+submit qqibrow@gmail.com BlBAQVpAYkBvHX1R
